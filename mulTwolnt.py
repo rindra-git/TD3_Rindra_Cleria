@@ -21,3 +21,9 @@ if __name__ == "__main__":
 
 	else:
 		print("Peu d'argument")
+		print("Entrer la valeur manquante")
+		a = int(sys.argv[1])
+		b = int(input())
+		print(mul(a,b))
+
+
